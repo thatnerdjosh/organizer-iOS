@@ -13,7 +13,9 @@
 		2664A42D2617E31700F82CFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2664A42C2617E31700F82CFB /* Preview Assets.xcassets */; };
 		2664A4382617E31700F82CFB /* OrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664A4372617E31700F82CFB /* OrganizerTests.swift */; };
 		2664A4432617E31700F82CFB /* OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664A4422617E31700F82CFB /* OrganizerUITests.swift */; };
-		26C4C36E2617F6E700F17071 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C4C36D2617F6E700F17071 /* Chat.swift */; };
+		26C4C36E2617F6E700F17071 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C4C36D2617F6E700F17071 /* ChatView.swift */; };
+		26D33AF726182AEC007ED13A /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D33AF626182AEC007ED13A /* MessageView.swift */; };
+		26D33B0026182CB6007ED13A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D33AFF26182CB6007ED13A /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,9 @@
 		2664A43E2617E31700F82CFB /* OrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2664A4422617E31700F82CFB /* OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerUITests.swift; sourceTree = "<group>"; };
 		2664A4442617E31700F82CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26C4C36D2617F6E700F17071 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		26C4C36D2617F6E700F17071 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		26D33AF626182AEC007ED13A /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		26D33AFF26182CB6007ED13A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		2664A4242617E31600F82CFB /* Organizer */ = {
 			isa = PBXGroup;
 			children = (
+				26D33AFE26182CAB007ED13A /* Models */,
 				2664A4252617E31600F82CFB /* OrganizerApp.swift */,
-				26C4C36D2617F6E700F17071 /* Chat.swift */,
+				26C4C36D2617F6E700F17071 /* ChatView.swift */,
 				2664A4272617E31600F82CFB /* ContentView.swift */,
 				2664A4292617E31700F82CFB /* Assets.xcassets */,
 				2664A42E2617E31700F82CFB /* Info.plist */,
 				2664A42B2617E31700F82CFB /* Preview Content */,
+				26D33AF626182AEC007ED13A /* MessageView.swift */,
 			);
 			path = Organizer;
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				2664A4442617E31700F82CFB /* Info.plist */,
 			);
 			path = OrganizerUITests;
+			sourceTree = "<group>";
+		};
+		26D33AFE26182CAB007ED13A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26D33AFF26182CB6007ED13A /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D33AF726182AEC007ED13A /* MessageView.swift in Sources */,
 				2664A4282617E31600F82CFB /* ContentView.swift in Sources */,
-				26C4C36E2617F6E700F17071 /* Chat.swift in Sources */,
+				26D33B0026182CB6007ED13A /* Message.swift in Sources */,
+				26C4C36E2617F6E700F17071 /* ChatView.swift in Sources */,
 				2664A4262617E31600F82CFB /* OrganizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
