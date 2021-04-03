@@ -13,7 +13,7 @@
 		2664A42D2617E31700F82CFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2664A42C2617E31700F82CFB /* Preview Assets.xcassets */; };
 		2664A4382617E31700F82CFB /* OrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664A4372617E31700F82CFB /* OrganizerTests.swift */; };
 		2664A4432617E31700F82CFB /* OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664A4422617E31700F82CFB /* OrganizerUITests.swift */; };
-		26C4C36E2617F6E700F17071 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C4C36D2617F6E700F17071 /* Chat.swift */; };
+		26C4C36E2617F6E700F17071 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C4C36D2617F6E700F17071 /* Messages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		2664A43E2617E31700F82CFB /* OrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2664A4422617E31700F82CFB /* OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerUITests.swift; sourceTree = "<group>"; };
 		2664A4442617E31700F82CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26C4C36D2617F6E700F17071 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		26C4C36D2617F6E700F17071 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2664A4252617E31600F82CFB /* OrganizerApp.swift */,
-				26C4C36D2617F6E700F17071 /* Chat.swift */,
+				26C4C36D2617F6E700F17071 /* Messages.swift */,
 				2664A4272617E31600F82CFB /* ContentView.swift */,
 				2664A4292617E31700F82CFB /* Assets.xcassets */,
 				2664A42E2617E31700F82CFB /* Info.plist */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2664A4282617E31600F82CFB /* ContentView.swift in Sources */,
-				26C4C36E2617F6E700F17071 /* Chat.swift in Sources */,
+				26C4C36E2617F6E700F17071 /* Messages.swift in Sources */,
 				2664A4262617E31600F82CFB /* OrganizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
